@@ -1,0 +1,395 @@
+/**
+*** BASED ON SIMPLE GRID BY
+*** (C) ZACH COLE 2016
+**/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Rubik:400,700,700i,900,900i);
+
+/* UNIVERSAL */
+
+html,
+body {
+  background: #39F;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
+
+/* ROOT FONT STYLES */
+
+* {
+  font-family: 'Roboto Mono', monospace;
+  color: #111;
+  line-height: 1.5;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+
+/* HEADER, FOOTER, BODY */
+
+.header {
+  background: #39F;
+  background-image: linear-gradient(#3CF, #39F);
+  height: 760px;
+  width: 100%;
+  z-index: 100 !important;
+}
+
+.header h1,
+.header h2 {
+  color: #fff;
+}
+
+.body-content {
+  background: #fff;
+  padding: 100px 0 120px 0;
+  position: relative;
+  z-index: 0 !important;
+}
+
+.body-content > .container {
+  position: relative;
+  top: 100px;
+  padding-bottom: 100px;
+}
+
+footer {
+  background: #39F;
+  background-image: linear-gradient(#3CF, #39F);
+  padding-bottom: 80px;
+}
+
+footer p {
+  color: #fff;
+}
+
+
+.line {
+  height: 1px;
+  width: 100%;
+  background: #D6D6D8;
+  margin: 80px 0;
+}
+
+/* LINKS AND BUTTONS */
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+button {
+  height: 48px;
+  width: 180px;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+button:hover {
+  background: #fff;
+  color: #3CF;
+}
+
+button:active {
+  outline: none;
+}
+
+.btn-secondary {
+  border: 1px solid #3CF;
+  color: #3CF;
+}
+
+.btn-secondary:hover {
+  background: #3CF;
+  color: #fff;
+}
+
+
+/* IMAGES */
+
+.img {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-logo {
+  background-image: url('../img/metal.png');
+  background-size: contain;
+  width: 50px;
+  height: 90px;
+  padding-bottom: 8px;
+}
+
+.img-feature {
+  position: relative;
+  background-image: url('../img/feature.png');
+  height: 0;
+  padding-top: 71.8%;
+  margin-top: 80px;
+  z-index: 200 !important;
+}
+
+.img-responsive {
+  background-image: url('img/responsive.png');
+  height: 96px;
+  width: 144px;
+}
+
+.img-lightweight {
+  background-image: url('img/light.png');
+  height: 96px;
+  width: 96px;
+}
+
+.img-simple {
+  background-image: url('img/simple.png');
+  height: 96px;
+  width: 132px;
+}
+
+/* POSITIONING */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 96%;
+}
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+  .col-1 {
+    width: 4.33%;
+  }
+
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-4 {
+    width: 29.33%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 62.66%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .container {
+    width: 75%;
+    max-width: 60rem;
+  }
+}
