@@ -1,0 +1,7 @@
+name: Python Debugging
+description: Everything about Python Debugging 
+theme: jekyll-theme-slate
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
