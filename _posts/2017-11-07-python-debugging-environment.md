@@ -1,5 +1,6 @@
 ---
 title: Python Debugging Environment
+style: page
 permalink: /articles/python-debugging-environment
 ---
 
