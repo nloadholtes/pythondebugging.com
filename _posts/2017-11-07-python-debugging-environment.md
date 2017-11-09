@@ -4,7 +4,6 @@ style: page
 permalink: /articles/python-debugging-environment
 ---
 
-# Python debugging environment
 As Python developers were very fortunate that our Python debugging environment is built into our language. Pdb is the core tool that one uses when debugging python code, but there are many other nice things you can add to this to help make the job easier. 
 
 When I begin a debugging session I like to set up my local environment to help me get through things as quickly as possible. Here are some of the tools I like to do.
