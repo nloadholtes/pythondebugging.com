@@ -3,6 +3,7 @@ title: Python Debugging Environment
 style: page
 permalink: /articles/python-debugging-environment
 tags: [python, debugging]
+category: python
 ---
 
 As Python developers were very fortunate that our Python debugging environment is built into our language. Pdb is the core tool that one uses when debugging python code, but there are many other nice things you can add to this to help make the job easier. 
