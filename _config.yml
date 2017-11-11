@@ -52,3 +52,4 @@ exclude: ['README.md', 'LICENSE', 'admin', 'google46839f86e00bdc27.html', 'index
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
