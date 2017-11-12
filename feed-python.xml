@@ -12,8 +12,6 @@ permalink: category/python/feed.xml
 		<atom:link href="{{site.baseurl | prepend:site.url}}/feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.posts limit:10 %}
 			{% if post.url contains "articles/"  %}
-				{% continue %}
-			{% endif %}
 			<item>
 				<title>{{ post.title }}</title>
 				<description>{{ post.content | slice: 0,100 | xml_escape }}</description>
@@ -21,6 +19,7 @@ permalink: category/python/feed.xml
 				<link>{{post.url | prepend:site.baseurl | prepend:site.url}}</link>
 				<guid isPermaLink="true">{{post.url | prepend:site.baseurl | prepend:site.url}}</guid>
 			</item>
+			{% endif %}
 		{% endfor %}
 	</channel>
 </rss>
