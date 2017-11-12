@@ -9,7 +9,7 @@ permalink: category/python/feed.xml
 		<title>{{ site.name }}</title>
 		<description>{{ site.description }}</description>
 		<link>{{site.baseurl | prepend:site.url}}</link>
-		<atom:link href="{{site.baseurl | prepend:site.url}}/feed.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="{{site.baseurl | prepend:site.url}}/category/python/feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.posts limit:10 %}
 			{% if post.url contains "articles/"  %}
 			<item>
