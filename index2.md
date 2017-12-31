@@ -1,5 +1,7 @@
-
-<!DOCTYPE html>
+---
+title: Python Debugging
+permalink: index2
+---
 <html>
 <head>
   <meta charset="utf-8">
@@ -9,12 +11,12 @@
   <meta property="og:title" content="Simple Grid">
   <meta property="og:description" content="A responsive, lightweight, simple CSS grid.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="http://simplegrid.io/img/simple-grid-computer.png">
+  <meta property="og:image" content="http://simplegrid.io/imagessimple-grid-computer.png">
   <meta property="og:site_name" content="Simple Grid">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Simple Grid">
   <meta name="twitter:description" content="A responsive, lightweight, simple CSS grid.">
-  <meta name="twitter:image:src" content="http://simplegrid.io/img/simple-grid-computer.png">
+  <meta name="twitter:image:src" content="http://simplegrid.io/imagessimple-grid-computer.png">
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">

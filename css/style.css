@@ -180,7 +180,7 @@ button:active {
 }
 
 .img-logo {
-  background-image: url('../img/metal.png');
+  background-image: url('../images/metal.png');
   background-size: contain;
   width: 50px;
   height: 90px;
@@ -189,7 +189,7 @@ button:active {
 
 .img-feature {
   position: relative;
-  background-image: url('../img/feature.png');
+  background-image: url('../images/feature.png');
   height: 0;
   padding-top: 71.8%;
   margin-top: 80px;
@@ -197,19 +197,19 @@ button:active {
 }
 
 .img-responsive {
-  background-image: url('img/responsive.png');
+  background-image: url('images/responsive.png');
   height: 96px;
   width: 144px;
 }
 
 .img-lightweight {
-  background-image: url('img/light.png');
+  background-image: url('images/light.png');
   height: 96px;
   width: 96px;
 }
 
 .img-simple {
-  background-image: url('img/simple.png');
+  background-image: url('images/simple.png');
   height: 96px;
   width: 132px;
 }
