@@ -21,8 +21,8 @@ permalink: index2
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   
-  <title>Awesome landing page</title>
-  <meta name="description" content="A simple, lightweight grid and container system for your website.">
+  <title>Adevntures In Python Debugging</title>
+  <meta name="description" content="Adventure in Python Debugging">
 
 </head>
 <body>
@@ -31,8 +31,8 @@ permalink: index2
       <div class="row">
         <div class="col-12 center">
           <div class="img img-logo center"></div>
-          <h1>Awesome</h1>
-          <h2 class="font-light">A simple landing page for your next project</h2>
+          <h1>Debug with confidence</h1>
+          <h2 class="font-light">Level up your debugging skills in Python</h2>
           <a href="#">
             <button>Buy now</button>
           </a>
@@ -49,29 +49,29 @@ permalink: index2
   </div>
   <div class="body-content">
     <div class="container">
-      <div class="row">
-        <div class="col-4 center">
-          <img src="http://justinjackson.ca/jj-circle.png">
-          <h3>Justin Jackson</h3>
-          <p>
-            "This is the best product I've found."
-          </p>
-        </div>
-        <div class="col-4 center">
-          <img src="http://justinjackson.ca/jj-circle.png">
-          <h3>Justin Jackson</h3>
-          <p>
-            "This is the best product I've found."
-          </p>
-        </div>
-        <div class="col-4 center">
-          <img src="http://justinjackson.ca/jj-circle.png">
-          <h3>Justin Jackson</h3>
-          <p>
-            "This is the best product I've found."
-          </p>
-        </div>
-      </div>
+      <!-- <div class="row"> -->
+      <!--   <div class="col-4 center"> -->
+      <!--     <img src="http://justinjackson.ca/jj-circle.png"> -->
+      <!--     <h3>Justin Jackson</h3> -->
+      <!--     <p> -->
+      <!--       "This is the best product I've found." -->
+      <!--     </p> -->
+      <!--   </div> -->
+      <!--   <div class="col-4 center"> -->
+      <!--     <img src="http://justinjackson.ca/jj-circle.png"> -->
+      <!--     <h3>Justin Jackson</h3> -->
+      <!--     <p> -->
+      <!--       "This is the best product I've found." -->
+      <!--     </p> -->
+      <!--   </div> -->
+      <!--   <div class="col-4 center"> -->
+      <!--     <img src="http://justinjackson.ca/jj-circle.png"> -->
+      <!--     <h3>Justin Jackson</h3> -->
+      <!--     <p> -->
+      <!--       "This is the best product I've found." -->
+      <!--     </p> -->
+      <!--   </div> -->
+      <!-- </div> -->
       <div class="row">
         <div class="col-4 hidden-sm"></div>
         <div class="col-4">
