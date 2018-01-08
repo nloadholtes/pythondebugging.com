@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+---
+title: Python Debugging
+permalink: index3
+---
 <html lang="en">
 
 <head>
