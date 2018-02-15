@@ -43,4 +43,4 @@ There's a lot of tools out bunch of python debugging tools out there and today I
 Go forth and make things work!
 
 
-> Curious? Learn more about  [Python Debugging](https://pythondebugging.com/) today.v
+> Curious? Learn more about  [Python Debugging](https://pythondebugging.com/) today.
