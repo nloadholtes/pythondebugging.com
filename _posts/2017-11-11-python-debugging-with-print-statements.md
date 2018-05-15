@@ -6,7 +6,7 @@ tags: [python, debugging]
 category: python
 ---
 
-One of the most basic ways to start debugging python is to use print statements. A print statement simply puts text out to the console so you can see what's going on. This is useful for seeing what the values of certain variables, or just seeing where your program is going as an excuse. Let's look at this in a little bit more detail.
+One of the most basic ways to start debugging python is to use print statements. A Python debug print statement simply puts text out to the console so you can see what's going on. This is useful for seeing what the values of certain variables, or just seeing where your program is going as an excuse. Let's look at this in a little bit more detail.
 
 ## What's the score?
 For me, 99% of the time when I have a Python debug print statement it is because I want to see what value a variable has.
